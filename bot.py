@@ -31,7 +31,7 @@ class Bot(commands.Bot):
             super().run(self.config.token)
         except LoginFailure:
             print('Bad bot token was provided (Can\'t login).')
-            exit(0)
+            exit(1)
 
     def log(self, text: str) -> None:
         print(f'[x] {text}')
