@@ -7,7 +7,7 @@ from base import Config
 class Bot(commands.Bot):
 
     def __init__(self) -> None:
-        """ The Bot class, where the magic happens. """
+        """The Bot class, where the magic happens."""
         super().__init__(command_prefix='!')
         self.config = Config.load()
 
