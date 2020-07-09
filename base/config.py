@@ -1,6 +1,4 @@
-"""
-This file contains the Config class that handles the Configuration of the bot.
-"""
+"""This file contains the Config class that handles the Configuration of the bot."""
 
 from __future__ import annotations
 from dataclasses import dataclass
