@@ -6,7 +6,7 @@ import time
 class Fun(commands.Cog):
 
     def __init__(self, bot) -> None:
-        """ All the fun commands are contained in this Fun cog class. """
+        """All the fun commands are contained in this Fun cog class."""
         self.bot = bot
 
     @commands.command()
