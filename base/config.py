@@ -9,7 +9,7 @@ class Config:
     cogs: list
 
     @staticmethod
-    def load(filename: str='config.json') -> Config:
+    def load(filename: str = 'config.json') -> Config:
         with open(filename, 'r') as file:
             config_json = file.read()
 
