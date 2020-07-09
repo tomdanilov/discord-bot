@@ -34,7 +34,8 @@ class Bot(commands.Bot):
             print('Bad bot token was provided (Can\'t login).')
             exit(1)
 
-    def log(self, text: str) -> None:
+    @staticmethod
+    def log(text: str) -> None:
         print(f'[x] {text}')
 
 
