@@ -1,7 +1,7 @@
 from __future__ import annotations
 from discord.errors import LoginFailure
 from discord.ext import commands
-from base import *
+from base import Config
 
 
 class Bot(commands.Bot):
