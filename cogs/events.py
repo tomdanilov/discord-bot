@@ -5,6 +5,7 @@ from discord.ext import commands
 class Events(commands.Cog):
 
     def __init__(self, bot) -> None:
+        """ Events cog class, here is all the events declarations. """
         self.bot = bot
 
     @commands.Cog.listener()
