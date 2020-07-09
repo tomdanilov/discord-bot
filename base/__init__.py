@@ -1,2 +1,4 @@
 """Imports all the base staff needed for the Bot."""
-from .config import *
+
+__all__ = ['Config']
+from .config import Config
